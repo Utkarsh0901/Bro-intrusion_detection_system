@@ -90,6 +90,7 @@ $ sudo /usr/local/bro/bin/bro -r /path_to_source/bro-2.5.1/testing/btest/Traces/
 
 ### Sending logs to remote server
 - checkout __us_threading.py__, It's a daemon python file which can send json format logs from __notice.log__ which is produced when we run FTP Brute-force Attacking scripts.
+- Change the destination address to the server address where you want to send the logs.
 ## Load multiple scripts through bro
 - checkout _bro-2.5.1/scripts/test-all-policy.bro_ and _bro-2.5.1/scripts/policy/_ ,you can add scripts in the later and add them in test-all-policy.bro .
 - The base/ scripts are all loaded by default and not included here. example :
